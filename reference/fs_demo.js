@@ -2,8 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 /*
- Create a folder 
-is asynchronous, takes in callback
+These fs functions are asynchronous, they take a callback function
 several methods have their own synchronous version; consult documentation: https://nodejs.org/en/docs/
 fs.mkdir(path.join(__dirname, '/test'), {}, function(err)
 {
